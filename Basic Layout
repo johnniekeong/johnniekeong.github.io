@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<link href="/css/stylesheet.css" type="text/css" rel="stylesheet"/>
 	<title>Basic Layout</title>
 </head>
 <body>
