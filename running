@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<title>Running</title>
+
+<style type="text/css">
+
+body {
+color: #665544;
+background-color: #d4d0c6;
+background-image: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
+font-family: Georgia, "Times New Roman", serif;
+text-align: center;
+}
+
+.wrapper {
+width: 720px;
+margin: 0px auto;
+}
+
+.header {
+margin: 40px 0px 20px 0px;
+}
+
+.picture {
+width: 220px;
+float: left;
+margin: 10px;
+height: 198px;
+}
+
+figure {
+display: block;
+width: 202px;
+height: 152px;
+background-color: #e7e3d8;
+padding: 9px;
+text-align: left;
+}
+
+figure img {
+width: 200px;
+height: 150px;
+border: 1px solid #d6d6d6;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div class="header">
+<img src="https://www.eurosock.com/media/catalog/category/banner_eurosock_athletic_running_1.jpg" alt="Running" width="456" height="122" />
+<p><strong>"Running teaches me that I am capable of so much more than I ever imagined."</strong></p>
+</div>
+<div class="picture">
+<figure><img src="https://static1.squarespace.com/static/557b65c2e4b00283cf1ca9b0/t/5585d703e4b0d4f1a8bc4dc2/1434834698106/shutterstock_139712587.jpg?format=2500w" alt="running1" />
+</figure>
+</div>
+<div class="picture">
+<figure><img src="http://greatist.com/sites/default/files/iStock_000068528761_Large.jpg" alt="runnning2" />
+</figure>
+</div>
+<div class="picture">
+<figure><img src="http://i.huffpost.com/gen/1213490/images/o-RUNNING-TIPS-facebook.jpg" alt="running3" />
+
+</figure>
+</div>
+<div class="picture">
+<figure><img src="http://www.ironman.lv/wp-content/uploads/2015/02/adidas-Running-Team.jpg" alt="running4" />
+
+</figure>
+</div>
+<div class="picture">
+<figure><img src="http://confessionsofamotherrunner.com/wp-content/uploads/2014/05/runners-together1.jpg" alt="running5" />
+
+</figure>
+</div>
+<div class="picture">
+<figure><img src="http://cdn.running.competitor.com/files/2014/04/HappyRunner-Raleigh14.jpg" alt="running6" />
+
+</figure>
+</div>
+</div>
+
+</body>
+</html>
