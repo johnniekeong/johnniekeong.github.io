@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Positioning</title>
+	<style ="text/css">
+     body{
+     	background-color: #c9e3ec;
+	    font-family: Arial;
+     }
+     #wrapper{
+     	width: 800px;
+     	height: 580px;
+     	margin: 0 auto;
+     	border:2px solid #80aab7;
+     	background-color: #6495ED;
+
+     }
+     #header{
+       width: 785px;
+       height: 110px;
+       border:2px solid #80aab7;
+       margin:5px;
+       background-color: #A6BED1;
+       text-align: center;
+     }
+     #logo{
+     	height: 80px;
+		width:80px;	
+		padding-top: 14px;
+     }
+     #pos{
+        color:white;
+     	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+     	position: relative;
+        bottom: 28px;
+     	left:10px;
+     }
+     #logo,#pos,#list,li{
+     	display: inline-block;
+     }
+     #list{
+     	position: relative;
+        bottom:28px;
+     	left:20px;
+     }
+     li{
+     	
+     	
+     }
+     a{
+        color:white;
+     	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+     	padding: 5px;
+     	text-decoration: none;
+     }
+    
+    #left,#center,#right{
+    	background-color: #FFF;
+		border: 2px solid #80aab7;
+		float: left;
+		margin:6px;
+    }
+    #left{
+    	width: 250px;
+    	height: 400px;
+    	
+    	
+    }
+    #center{
+    	width: 250px;
+    	height: 400px;
+    	position:relative;
+    	
+    	
+    }
+    #right{
+    	width: 250px;
+    	height: 400px;
+    	
+    
+    }
+    #footer{
+    	width: 785px;
+    	height: 20px;
+    	background-color: #222222;
+		border: 2px solid #80aab7;
+		margin: 0 5px;
+		clear:both;
+    }
+    #end{
+        color: white;
+    	font-size: 10px;
+    	text-align: center;
+    	margin:0 0 2px 0;
+    }
+    h2{
+    	text-align: center;
+    }
+    p{
+    	font-size:20px;
+    	margin:10px;
+    	text-align: center;
+    }
+    .top{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	top: -10px;
+	right: -5px
+	
+}
+
+#t1 {
+	position: absolute;
+	border-width: 0px 30px 30px 0px;
+	border-color: transparent #FFB6C1 transparent transparent;
+	right: -10px;
+}
+
+#t2 {
+	position: absolute;
+	border-width: 30px 30px 0px 0px;
+	border-color: #FFB6C1 transparent transparent transparent;
+	left: -10px;
+}
+
+.bottom{
+	width: 0px;
+	height: 0px;
+	right: -10px;
+	bottom: -10px;
+	border-style: solid;
+
+}
+
+#b3 {
+	position: absolute;
+	border-width: 0px 0px 30px 30px;
+	border-color: transparent transparent #FFB6C1 transparent;
+}
+
+#b4 {
+	position: absolute;
+	border-width: 30px 0px 0px 30px;
+	border-color: transparent transparent transparent #FFB6C1;
+	border-style: solid;
+	left: -10px;
+}
+
+	</style>
+</head>
+<body>
+    
+    <div id="wrapper">
+    <div id="header">
+    <img id="logo" src="https://www.sololearn.com/Icons/Courses/1023.png" alt="logo"/>
+    <h1 id="pos">Positioning</h1>
+    <ul id="list">
+    	<li><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/" target="_blank">Notes</a></li>
+    	<li><a href="https://www.youtube.com/watch?v=aFtByxWjfLY" target="_blank">Tutorial-1</a></li>
+    	<li><a href="https://www.youtube.com/watch?v=AyrQR7SxAq8" target="_blank">Tutorial-2</a></li>
+    </ul>
+    </div><!--end of header-->
+    <div id="left">
+    <h2>Position:Relative</h2>
+    <p>If you specify position:relative, then you can use top or bottom, and left or right to move the element relative to where it would normally occur in the document.</p>
+    </div><!--end of left-->
+    <div id="center">
+    <h2>Position:Absolute</h2>
+    <p>When you specify position:absolute, the element is removed from the document and placed exactly where you tell it to go.</p>
+    <div class="top" id="t1"></div>
+	<div class="top" id="t2"></div>
+	<div class="bottom" id="b3"></div>
+	<div class="bottom" id="b4"></div>
+    </div><!--end of center-->
+    <div id="right">
+    <h2>Position:Float</h2>
+    <p>We can "float" an element to push it as far as possible to the right or to the left, and allow text to wrap around it. This is typically used for images, but we will use it for more complex layout tasks (because it's the only tool we have).</p>
+    </div><!--end of right-->
+    <div id="footer">
+    <p id="end">&copy;Created by TYK 2016.</p>
+    </div><!--end of footer-->
+    </div><!--end of wrapper-->
+</body>
+</html>
