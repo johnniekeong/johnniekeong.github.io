@@ -68,7 +68,7 @@ h2{font-family: 'Montserrat', sans-serif;
    text-align: center;
 }
 
-p{
+.content{
         font-size:20px;
         margin:10px;
         padding: 20px;
@@ -140,9 +140,9 @@ p{
 
 #quiz,#feedback{
     width: 382px;
-    height: 390px;
-    display: inline-block;
+    height: 390px;   
     vertical-align: top;
+    display: inline-block;
 }
 
 h3{
@@ -153,54 +153,17 @@ h3{
 form{
     font-family: 'Farsan', cursive;
     padding-left: 30px;
-}
-
-#quiz p{
     font-family: 'Farsan', cursive;
+    font-size:18px;
 }
 
-#feedback p{
-    font-family: 'Farsan', cursive;
+.fb{display: inline-block;}
+
+button{display:block;
+    margin-left: 320px;
+    margin-top: 50px;
 }
 
-#q1{position:relative;
-bottom:30px;}
 
-#q2{position:relative;
-bottom:50px;}
 
-#q3{position:relative;
-bottom:80px;}
 
-#f1{position:relative;
-bottom:25px;}
-
-#feedback1{position:relative;
-bottom:80px;
-left: 170px;
-}
-
-#f2{position:relative;
-bottom:80px;}
-
-#feedback2{
-    position: relative;
-    bottom:100px;
-}
-
-#suggestions{
-    position: relative;
-    bottom:120px;
-}
-
-#sug{
-    position: relative;
-    bottom:150px;
-}
-
-button{
-    position: relative;
-    bottom:140px;
-    left: -20px;
-
-}
