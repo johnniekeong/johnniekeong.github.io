@@ -1,1 +1,92 @@
-What is Avoidant Personality Disorder ?
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One|Droid+Serif|Port+Lligat+Slab|Ultra" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Farsan" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>CSS Positioning</title>
+    
+</head>
+<body>
+    
+  <div id="wrapper">
+    
+    <div id="header">
+     <img id="logo" src="https://www.sololearn.com/Icons/Courses/1023.png" alt="logo"/>
+     <h1 id="pos">Positioning</h1>
+     <ul id="list">
+        <li><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/" target="_blank">Notes</a></li>
+        <li><a href="https://www.youtube.com/watch?v=aFtByxWjfLY" target="_blank">Tutorial-1</a></li>
+        <li><a href="https://www.youtube.com/watch?v=AyrQR7SxAq8" target="_blank">Tutorial-2</a></li>
+     </ul>
+    </div><!--end of header-->
+    
+    <div id="left">
+     <h2>Position:Relative</h2>
+     <p>If you specify position : relative, then you can use top or bottom, and left or right to move the element relative to where it would normally occur in the document.</p>
+    </div><!--end of left-->
+
+    <div id="center">
+     <h2>Position:Absolute</h2>
+     <p>When you specify position : absolute, the element is removed from the document and placed exactly where you tell it to go.</p>
+     <div class="top" id="t1"></div>
+     <div class="top" id="t2"></div>
+     <div class="bottom" id="b3"></div>
+     <div class="bottom" id="b4"></div>
+    </div><!--end of center-->
+    
+    <div id="right">
+     <h2>Position:Float</h2>
+     <p>We can "float" an element to push it as far as possible to the right or to the left, and allow text to wrap around it. This is typically used for images, but we will use it for more complex layout tasks (because it's the only tool we have).</p>
+    </div><!--end of right-->
+    
+    <div id="footer">
+     <div id="quiz">
+      <h3>Quiz:</h3>
+      <form>
+      Name:<input type="text" name="firstname">
+      </form>
+      <p>Q1.Which position allow the element removed from the document and placed exactly whre you tell it to go?</p>
+      <form id="q1">
+      <input type="checkbox" name="position1" value="Relative">Relative
+      <input type="checkbox" name="position2" value="Absolute">Absolute
+      <input type="checkbox" name="position3" value="Float">Float
+      </form>
+      <p id="q2">Q2.Which position can use top,bottom,right,and left to move the element from where it would normally occur in the document?</p>
+      <form id="q3">
+      <input type="checkbox" name="position1" value="Relative">Relative
+      <input type="checkbox" name="position2" value="Absolute">Absolute
+      <input type="checkbox" name="position3" value="Float">Float
+      </form>
+     </div><!--end of quiz-->
+
+     <div id="feedback">
+      <h3>Feedback:</h3>
+      <p id="f1">F1.Do you like this lesson?</p>
+      <form id="feedback1">
+      <select name="rating">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+      </select>
+      </form>
+      <p id="f2">F2.How helpful is this lesson?</p>
+      <form id="feedback2">
+      <input type="radio" name="evaluation" value="not">Not Helpful
+      <input type="radio" name="evaluation" value="slightly">Slightly Helpful
+      <input type="radio" name="evaluation" value="very">Very Helpful
+      </form>
+      <p id="suggestions">Suggestions:</p>
+      <form id="sug">
+      <textarea name="message" rows="10" cols="30"></textarea>
+      </form>
+      <button type="button" onclick="alert('Thank You')">Submit</button>
+    </div><!--end of feedback-->
+    </div><!--end of footer-->
+    
+  </div><!--end of wrapper-->
+</body>
+</html>
