@@ -157,13 +157,13 @@ form{
     font-size:18px;
 }
 
-.fb{display: inline-block;}
+.fb{display: inline-block;
+}
 
 button{display:block;
     margin-left: 320px;
     margin-top: 50px;
 }
-
 
 
 
